@@ -1,8 +1,11 @@
 import './App.css';
+import { Counter } from './components/state/Counter';
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <Counter />
+    </div>
   );
 }
 
