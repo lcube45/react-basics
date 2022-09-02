@@ -1,5 +1,6 @@
 import './App.css';
 import { Button } from './components/Button';
+import { Input } from './components/Input';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Button handleClick={(event, id) => {
         console.log('button clicked', event, id)
       }}/>
+      <Input value='' handleChange={(event) => console.log(event)} />
     </div>
   );
 }
