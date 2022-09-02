@@ -1,10 +1,14 @@
 import './App.css';
-import { Toast } from './components/templateliterals/Toast';
+import { Button } from './components/html/Button';
+import { Input } from './components/html/Input';
 
 function App() {
   return (
     <div className="App">
-      <Toast position='left-center' />
+      <Button variant='primary'>
+        Primary button
+      </Button>
+      <Input />
     </div>
   );
 }
